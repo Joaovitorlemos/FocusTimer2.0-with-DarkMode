@@ -10,6 +10,8 @@
    --ff-primary:'Roboto', sans-serif;
    --fc-timer: #323238;
    --bg-controls-music: #E1E1E6;
+   --bg-on-music: #02799D;
+
 }
 
 body {
@@ -79,4 +81,8 @@ main {
    width: 13.8rem;
    height: 15.2rem;
    border-radius: 2.4rem;
+}
+
+#rain {
+   background: var(--bg-on-music);
 }
